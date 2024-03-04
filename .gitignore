@@ -4,5 +4,5 @@
 .hugo_build.lock
 yarn-error.log
 node_modules
-/public
+public/*
 resources
