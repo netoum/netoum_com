@@ -1,1 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to Doks on My Docs</title><link>/</link><description>Recent content in Welcome to Doks on My Docs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright (c) 2020-2024 Hyas</copyright><lastBuildDate>Thu, 07 Sep 2023 17:19:07 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>Example Guide</title><link>/docs/guides/example-guide/</link><pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate><guid>/docs/guides/example-guide/</guid><description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.</description></item><item><title>Example Reference</title><link>/docs/reference/example-reference/</link><pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate><guid>/docs/reference/example-reference/</guid><description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.</description></item><item><title>Privacy Policy</title><link>/privacy/</link><pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate><guid>/privacy/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Netoum on Netoum</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to Netoum on Netoum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 Netoum</copyright>
+    <lastBuildDate>Sat, 09 Mar 2024 16:27:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flytis.com (Beta) is now live</title>
+      <link>http://localhost:1313/news/flytis.com-beta-is-now-live/</link>
+      <pubDate>Fri, 01 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/news/flytis.com-beta-is-now-live/</guid>
+      <description>Experience the next generation a streamlined booking process with no ads, no tracking, and no price changes.</description>
+    </item>
+    <item>
+      <title>Gettext and Cldr</title>
+      <link>http://localhost:1313/sharings/liveair/gettextcldr/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/sharings/liveair/gettextcldr/</guid>
+      <description>Setup Gettext Edit live_air/lib/live_air_web/gettext.ex with&#xA;use Gettext,&#xD;otp_app: :live_air,&#xD;default_locale: &amp;#34;en&amp;#34;,&#xD;locales: ~w(&amp;#34;fr&amp;#34;)&#xD;Setup Cldr Add the follwing to your mix.</description>
+    </item>
+    <item>
+      <title>Home Live View</title>
+      <link>http://localhost:1313/sharings/liveair/liveview/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/sharings/liveair/liveview/</guid>
+      <description>Mix Test Before to start lets run the inital test suite with mix test&#xA;Finished in 0.1 seconds (0.06s async, 0.</description>
+    </item>
+    <item>
+      <title>How to Seed on Gigalixir</title>
+      <link>http://localhost:1313/sharings/gigalixir/seed/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/sharings/gigalixir/seed/</guid>
+      <description>Use the build&amp;rsquo;in functions of gigalixir to setup your seeds</description>
+    </item>
+    <item>
+      <title>Live Air Setup</title>
+      <link>http://localhost:1313/sharings/liveair/setup/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/sharings/liveair/setup/</guid>
+      <description>The goal of the sharing to build the basic for a flight search booking with Elixir and Phoenix Framework.&#xA;This open source project is not for production but for educational purpose only</description>
+    </item>
+    <item>
+      <title>Surface and Moon Setup</title>
+      <link>http://localhost:1313/sharings/liveair/surface-moon/</link>
+      <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
+      <guid>http://localhost:1313/sharings/liveair/surface-moon/</guid>
+      <description>The official documentation of Moon Design provides the steps to install it, however we are going to make some modifications in order to get it ready for production.</description>
+    </item>
+    <item>
+      <title>About us</title>
+      <link>http://localhost:1313/about_us/</link>
+      <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
+      <guid>http://localhost:1313/about_us/</guid>
+      <description>At Netoum, we thrive on the passion for innovation and the pursuit of digital excellence. Our team of skilled professionals is committed to delivering top-notch services that cater to your unique needs.</description>
+    </item>
+  </channel>
+</rss>

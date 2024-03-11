@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on My Docs</title><link>/categories/</link><description>Recent content in Categories on My Docs</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright (c) 2020-2024 Hyas</copyright><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Netoum</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Netoum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 Netoum</copyright>
+    <lastBuildDate>Sat, 09 Mar 2024 16:27:22 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elixir</title>
+      <link>http://localhost:1313/categories/elixir/</link>
+      <pubDate>Fri, 01 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/categories/elixir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phoenix Framework</title>
+      <link>http://localhost:1313/categories/phoenix-framework/</link>
+      <pubDate>Fri, 01 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/categories/phoenix-framework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Production</title>
+      <link>http://localhost:1313/categories/production/</link>
+      <pubDate>Fri, 01 Mar 2024 16:27:22 +0200</pubDate>
+      <guid>http://localhost:1313/categories/production/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

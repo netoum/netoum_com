@@ -1,4 +1,4 @@
-title = "My Docs"
+title = "Netoum"
 baseurl = "/"
 canonifyURLs = false
 disableAliases = true
@@ -17,7 +17,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2024 Netoum"
 
 [build.buildStats]
   enable = true
@@ -46,10 +46,10 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   filename = "sitemap.xml"
   priority = 0.5
 
-[caches]
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = -1 # "30m"
+#[caches]
+ # [caches.getjson]
+  #  dir = ":cacheDir/:project"
+   # maxAge = -1 # "30m"
 
 [taxonomies]
   contributor = "contributors"
@@ -57,8 +57,8 @@ copyRight = "Copyright (c) 2020-2024 Hyas"
   tag = "tags"
 
 [permalinks]
-  blog = "/blog/:slug/"
-  docs = "/docs/:sections[1:]/:slug/"
+  news = "/news/:slug/"
+  guides = "/guides/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]

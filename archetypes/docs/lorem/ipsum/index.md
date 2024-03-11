@@ -1,18 +1,12 @@
 ---
-title: "Reference"
+title: "{{ replace .Name "-" " " | title }}"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
+date: {{ .Date }}
+lastmod: {{ .Date }}
 draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "reference-22e9ba8aefa7ef9891199cf8db3a08cd"
-weight: 900
+weight: 100
 toc: true
-sidebar:
-  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
