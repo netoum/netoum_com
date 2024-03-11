@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Sharings"
-  url = "/sharings/liveair/installation"
+  url = "/sharings/gigalixir/seed/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
