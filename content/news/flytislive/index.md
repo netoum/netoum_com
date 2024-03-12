@@ -44,6 +44,7 @@ This is where it all started
   mix ecto.create
   mix format
   mix test
+```
 
 A few weeks past and I started to feel that this language / technology has something different.
 
