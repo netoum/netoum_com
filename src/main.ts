@@ -1,6 +1,6 @@
-// import './style.css'
-import '../src/components/menu'
-import '../src/components/clipboard'
+import './style.css'
+import '../src/components/menu.ts'
+import '../src/components/clipboard.ts'
 
 import { Themex } from '@netoum/themex';
 

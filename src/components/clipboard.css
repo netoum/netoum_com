@@ -1,3 +1,4 @@
+
 .clipboard {
   [data-scope="clipboard"][data-part="root"] {
     @apply flex flex-col gap-1 p-6;

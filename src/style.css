@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@source "../partials";
+
+ 
 @import "./components/menu.css";
 @import "./components/clipboard.css";
 
