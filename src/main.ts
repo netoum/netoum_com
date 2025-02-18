@@ -1,4 +1,4 @@
-// import './style.css'
+import './style.css'
 import '../src/components/menu'
 import '../src/components/clipboard'
 

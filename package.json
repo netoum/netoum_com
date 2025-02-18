@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "tailwind:build": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/assets/style.css",
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run tailwind:build && tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
