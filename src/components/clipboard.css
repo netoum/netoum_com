@@ -1,0 +1,44 @@
+.clipboard {
+  [data-scope="clipboard"][data-part="root"] {
+    @apply flex flex-col gap-1 p-6;
+  }
+
+  [data-scope="clipboard"][data-part="label"] {
+    @apply text-sm font-medium;
+  }
+
+  [data-scope="clipboard"][data-part="control"] {
+    @apply flex flex-row gap-2 justify-center;
+  }
+
+  [data-scope="clipboard"][data-part="input"] {
+    @apply border border-gray-300 dark:border-gray-700 h-10 pl-3 bg-gray-100 dark:bg-gray-900 rounded-lg;
+  }
+
+  [data-scope="clipboard"][data-part="trigger"] {
+    @apply inline-flex items-center justify-center text-start cursor-pointer 
+           font-medium py-1 px-3 border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-900 rounded-lg;
+  }
+
+  [data-scope="clipboard"][data-part="trigger"]:hover {
+    @apply bg-gray-200 dark:bg-gray-800;
+  }
+
+  [data-scope="clipboard"][data-part="trigger"] {
+    svg#copied {
+      @apply hidden;
+    }
+    svg#copy {
+      @apply inline-block;
+    }
+  }
+
+  [data-scope="clipboard"][data-part="trigger"][data-copied] {
+    svg#copy {
+      @apply hidden;
+    }
+    svg#copied {
+      @apply inline-block;
+    }
+  }
+}

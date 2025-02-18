@@ -1,0 +1,42 @@
+.menu {
+
+
+  [data-scope="dialog"] {
+    @apply relative z-50 w-auto h-auto mx-auto ;
+  }
+
+
+
+  [data-scope="dialog"][data-part="trigger"] {
+    @apply inline-flex items-center justify-center h-10 px-4 py-2 text-sm font-medium
+  }
+
+
+
+  [data-scope="dialog"][data-part="backdrop"] {
+    @apply fixed inset-0 bg-black/80 z-30 dark:bg-gray-800/80 h-screen;
+  }
+
+  [data-scope="dialog"][data-part="positioner"] {
+    @apply fixed inset-0 flex items-center justify-center h-screen z-50;
+  }
+
+  [data-scope="dialog"][data-part="content"] {
+    @apply w-full rounded-lg bg-white dark:bg-black p-5 mx-4 relative;
+  }
+
+
+  [data-scope="dialog"][data-part="title"] {
+    @apply font-medium text-lg mb-2;
+  }
+
+  [data-scope="dialog"][data-part="description"] {
+    @apply text-sm mb-3;
+  }
+
+  [data-scope="dialog"][data-part="close-trigger"] {
+    @apply absolute top-3 right-3 text-gray-700 hover:text-gray-900 cursor-pointer;
+  }
+
+
+}

@@ -1,0 +1,50 @@
+<div class="menu sm:hidden ">
+
+  <!-- Simplified Menu Button -->
+  <button data-part="trigger" class="w-6 h-6 cursor-pointer">
+    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+      stroke="currentColor" class="w-6 h-6">
+      <path d="M4 8h16M4 16h16"></path>
+    </svg>
+  </button>
+
+  <div data-part="backdrop"></div>
+
+  <div data-part="positioner">
+    <div data-part="content">
+        <div class="space-y-2">
+          <h2 data-part="title" class="text-3xl font-semibold text-center text-neutral-900 dark:text-white">
+            Netoum
+          </h2>
+          <p data-part="description" class="text-center text-neutral-600 dark:text-neutral-400">
+            Discover what we do
+          </p>
+        </div>
+
+        <nav class="mt-6 space-y-4 sm:flex sm:gap-6 sm:space-y-0 sm:mt-8">
+          <a href="#netoum"
+            class="close-menu group relative flex items-center justify-center px-4 py-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white transition-all duration-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 sm:flex-1">
+            <span class="text-lg font-semibold">Netoum</span>
+          </a>
+
+          <a href="#projects"
+            class="close-menu group relative flex items-center justify-center px-4 py-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white transition-all duration-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 sm:flex-1">
+            <span class="text-lg font-semibold">Projects</span>
+          </a>
+
+          <a href="#contact"
+            class="close-menu group relative flex items-center justify-center px-4 py-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white transition-all duration-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 sm:flex-1">
+            <span class="text-lg font-semibold">Contact</span>
+          </a>
+        </nav>
+
+      <button data-part="close-trigger"
+        class="absolute top-4 right-4 p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-all duration-200 sm:hidden">
+        <svg class="w-6 h-6 text-neutral-700 dark:text-neutral-200" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>

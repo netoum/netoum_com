@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "./components/menu.css";
+@import "./components/clipboard.css";
+
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where([data-mode=dark], [data-mode=dark] *));
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  scrollbar-width: none; /* Firefox */
+}
