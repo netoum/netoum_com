@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import handlebars from 'vite-plugin-handlebars';
 
 export default defineConfig({
-  base: '/netoum_com/',
+  base: '/',
   plugins: [
     tailwindcss(),
     handlebars({
